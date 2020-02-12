@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 #import "BrainCloudCompletionBlocks.hh"
-#import "braincloud/IRTTCallback.h"
+#import "braincloud/BrainCloudClient.h"
 
-class BrainCloudRTTCallback final : public BrainCloud::IRTTCallback
+class BrainCloudRTTCallback : public BrainCloud::IRTTCallback
 {
 public:
     void setEventBlock(BCRTTEventBlock eventBlock, BCCallbackObject cbObject)
@@ -19,7 +19,7 @@ public:
     }
 
 protected:
-    void rttCallback(const std::string& jsonData) override
+    void rttCallback(const std::string& jsonData)
     {
         if (m_eventBlock)
         {
