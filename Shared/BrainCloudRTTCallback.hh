@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BrainCloudCompletionBlocks.hh"
-#include "braincloud/IRTTCallback.h"
+#import "braincloud/IRTTCallback.h"
 
 class BrainCloudRTTCallback final : public BrainCloud::IRTTCallback
 {
