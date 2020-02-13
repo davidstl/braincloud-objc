@@ -8,7 +8,7 @@ PODS:
   - SSKeychain (1.4.1)
 
 DEPENDENCIES:
-  - BrainCloudCpp (from `https://github.com/getbraincloud/braincloud-cpp`, branch `develop`)
+  - BrainCloudCpp (from `https://github.com/davidstl/braincloud-cpp.git`, branch `podfix`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -18,13 +18,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   BrainCloudCpp:
-    :branch: develop
-    :git: https://github.com/getbraincloud/braincloud-cpp
+    :branch: podfix
+    :git: https://github.com/davidstl/braincloud-cpp.git
 
 CHECKOUT OPTIONS:
   BrainCloudCpp:
-    :commit: a51d15e7c13e6c30a8c5958353d9720046ba43ff
-    :git: https://github.com/getbraincloud/braincloud-cpp
+    :commit: 0dd17e370d84a58fa0a6a99f00f226c86bd152a5
+    :git: https://github.com/davidstl/braincloud-cpp.git
 
 SPEC CHECKSUMS:
   BrainCloudCpp: 968abcf053040c1838aa3a1d15a7c5362b607666
@@ -32,6 +32,6 @@ SPEC CHECKSUMS:
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
 
-PODFILE CHECKSUM: 1ebb57019d1c523abd594f1c34b2a9b30715799f
+PODFILE CHECKSUM: 4a83bcb5e1dbf0765ff8d62b58528e33586714f8
 
 COCOAPODS: 1.8.4
